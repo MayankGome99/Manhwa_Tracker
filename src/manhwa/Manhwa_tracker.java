@@ -11,7 +11,7 @@ public class Manhwa_tracker {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/manhwa_tracker";
         String user = "root";
-        String password = "2007"; // Your MySQL password
+        String password = "YOUR_DATABASE_PASSWORD";
 
         String insertSQL = "INSERT INTO my_list (title, chapter, rating) VALUES (?, ?, ?)";
 
